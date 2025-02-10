@@ -1,0 +1,181 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+  </head>
+  <body>
+    <nav class="bg-blue-600 p-4">
+      <div class="container mx-auto flex justify-between items-center">
+          <div class="text-white text-xl font-semibold">
+              <p>RUDRAKSH DEVELOPMENT ORGANISATION</p>
+          </div>
+          <div class="hidden md:flex space-x-8 text-white">
+              <a href="#" class="hover:bg-blue-500 px-3 py-2 rounded-md">Home</a>
+              <div class="relative" id="about-us-menu">
+                  <button class="hover:bg-blue-500 px-3 py-2 rounded-md" id="about-us-button">About Us</button>
+              </div>
+              <a href="#" class="hover:bg-blue-500 px-3 py-2 rounded-md">Initiatives</a>
+              <a href="#" class="hover:bg-blue-500 px-3 py-2 rounded-md">Join Us</a>
+              <a href="#" class="hover:bg-blue-500 px-3 py-2 rounded-md">Contact Us</a>
+          </div>
+
+          <div class="md:hidden flex items-center">
+              <button id="mobile-menu-toggle" class="text-white focus:outline-none">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                  </svg>
+              </button>
+          </div>
+      </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="md:hidden bg-blue-600 p-4 hidden">
+      <a href="#" class="block text-white py-2 px-4 hover:bg-blue-500">Home</a>
+      <a href="#" class="block text-white py-2 px-4 hover:bg-blue-500">About Us</a>
+      <a href="#" class="block text-white py-2 px-4 hover:bg-blue-500">Initiatives</a>
+      <a href="#" class="block text-white py-2 px-4 hover:bg-blue-500">Join Us</a>
+      <a href="#" class="block text-white py-2 px-4 hover:bg-blue-500">Contact Us</a>
+  </div>
+
+
+
+    <div class="bgimg-1">
+      <div class="caption">
+        <span class="border">Welcome!</span>
+      </div>
+    </div>
+
+    <div
+      style="
+        color: #777;
+        background-color: white;
+        text-align: center;
+        padding: 50px 80px;
+        text-align: justify;
+      "
+    >
+      <h3 style="text-align: center">Rudraksh Development Organisation</h3>
+      <p>
+        Rudraksh Development Organisation is a dedicated NGO committed to fostering positive 
+        change across various sectors to uplift communities and individuals of all backgrounds. 
+        The organization focuses on providing accessible education to marginalized groups, 
+        ensuring that every individual, regardless of their background, has the opportunity 
+        to learn and grow. Additionally, Rudraksh Development Organisation plays a crucial role
+         in offering financial services that aim to empower economically disadvantaged 
+         communities, providing them with resources and support to improve their livelihoods.
+          Beyond education and financial aid, the NGO organizes impactful events that bring 
+          together people from all walks of life, fostering unity, awareness, and community 
+          engagement. Through its comprehensive approach, Rudraksh Development Organisation 
+          strives to create a society where every individual, regardless of community or type,
+          has the chance to thrive and succeed.
+      </p>
+    </div>
+
+    <div class="bgimg-2">
+      <div class="caption">
+        <span
+          class="border"
+          style="background-color: transparent; font-size: 25px; color: #f7f7f7"
+          >EVENTS HOSTED</span
+        >
+      </div>
+    </div>
+
+    <div style="position: relative">
+      <div
+        style="
+          color: #ddd;
+          background-color: #282e34;
+          text-align: center;
+          padding: 50px 80px;
+          text-align: justify;
+        "
+      >
+        <p>
+          Rudraksh Development Organisation takes pride in hosting cultural programs to 
+          commemorate Baba Saheb Jayanti, honoring the life and legacy of Dr. B.R. Ambedkar, 
+          a visionary leader and champion of equality and justice. These cultural events serve 
+          as a platform to celebrate his contributions to society and raise awareness about his 
+          teachings, especially among marginalized communities. The programs include 
+          performances, speeches, and various artistic expressions that highlight Dr. Ambedkar's
+          vision of social reform and empowerment. By organizing such events, Rudraksh 
+          Development Organisation not only preserves his legacy but also fosters a sense of 
+          unity, pride, and cultural identity within the community, ensuring that his message 
+          of equality and justice resonates for generations to come.
+        </p>
+      </div>
+    </div>
+
+    <div class="bgimg-3">
+      <div class="caption">
+        <span
+          class="border"
+          style="background-color: transparent;  color: #f7f7f7"
+          >LIVING FOR PEOPLE</span
+        >
+      </div>
+    </div>
+
+    <div style="position: relative">
+      <div
+        style="
+          color: #ddd;
+          background-color: #282e34;
+          text-align: center;
+          padding: 50px 80px;
+          text-align: justify;
+        "
+      >
+        <p>
+          Rudrakshd Development Organisation is a dedicated NGO that works at the grassroots 
+          level, focusing on empowering communities in need. The organization provides 
+          financial assistance to those facing economic hardships and helps individuals 
+          by offering educational opportunities to improve their skills and knowledge. In 
+          addition, Rudrakshd actively supports people during natural calamities by providing 
+          emergency relief, resources, and guidance to help them recover and rebuild their 
+          lives. Their unwavering commitment to social development and humanitarian aid ensures
+          a brighter future for countless individuals and families.
+        </p>
+      </div>
+    </div>
+
+    <div class="bgimg-1">
+      <div class="caption">
+        <span class="border">GET IN TOUCH</span>
+      </div>
+    </div>
+
+    <div class="containerr">
+      <h1 style="text-align: center; color: #fff; font-size: 50px; font-weight: bold;">Contact Us</h1>
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+        <label for="country">Country</label>
+        <select id="country" name="country" style="padding: 7px;">
+          <option value="india">India</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+          <option value="japan">Japan</option>
+          <option value="china">China</option>
+          <option value="others">Other</option>
+        </select>
+    
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    
+        <input type="submit" value="Submit" style="margin-top: 5px;">
+      </form>
+    </div>
+
+    <footer style="text-align: center;">&copy; 2010-2025 Rudraksh Development Organisation | All Rights Reserved</footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
